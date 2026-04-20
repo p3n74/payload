@@ -42,7 +42,7 @@ iwr https://payload.citadel-codex.com/entry.ps1 -UseBasicParsing | iex
 
 1. Create a new application in Coolify from this repository.
 2. Use `Dockerfile` build mode.
-3. Expose port `80`.
+3. Expose port `3045`.
 4. Attach your domain: `payload.citadel-codex.com`.
 5. Ensure TLS is enabled in Coolify.
 
